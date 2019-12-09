@@ -23,19 +23,19 @@
 <tbody>
 <tr>
 <td>GET</td>
-<td>Lista todos os filmes</td>
+<td>Listar todos os filmes</td>
 <td>'/filmes'
 </tr>
 
 <tr>
 <td>POST</td>
-<td>Adiciona novo filme</td>
+<td>Adicionar novo filme</td>
 <td>'/filmes'</td>
 </tr>
 
 <tr>
 <td>PUT</td>
-<td>Atualiza filme por nome</td>
+<td>Atualizar filme por nome</td>
 <td>'/filmes/:titulo'</td>
 </tr>
 
