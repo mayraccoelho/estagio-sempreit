@@ -48,7 +48,8 @@ exports.deleteFilme = (req, res) => {
 
         filme.remove(function (err) {
             if (!err) {
-                res.status(200).send({ message: 'Filme removido com sucesso...' });
+                const removido = Filmes.pop();
+                res.status(200).send({ message: `Filme ${removido} removido com sucesso...` });
             }
         })
     })
